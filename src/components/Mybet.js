@@ -115,8 +115,8 @@ export const MyBet = () => {
                 <>
                     <div className="overflow-x-auto py-2 relative shadow-md sm:rounded-lg mt-4">
                         <table className="w-full text-sm text-left mt-5">
-                            <thead className="text-xs text-white uppercase">
-                                <tr className="py-3 px-6 border-b-2 border-[var(--logoutBg)] text-xs font-semibold text-white uppercase tracking-wider">
+                            <thead className="text-xs text-black uppercase">
+                                <tr className="py-3 px-6 border-b-2 border-[var(--logoutBg)] text-xs font-semibold text-black uppercase tracking-wider">
                                     <th scope="col" className="py-3 px-6">#</th>
                                     <th scope="col" className="py-3 px-6">Bet Time</th>
                                     <th scope="col" className="py-3 px-6">Game Type</th>
@@ -131,7 +131,7 @@ export const MyBet = () => {
                                 {currentBets.length > 0 ? (
                                     <>
                                         {currentBets.map((bet, index) => (
-                                            <tr className="text-white border-b border-[var(--logoutBg)]">
+                                            <tr className="text-black border-b border-[var(--logoutBg)]">
                                                 <th
                                                     scope="row"
                                                     className="py-4 px-6 font-medium whitespace-nowrap"
@@ -139,11 +139,11 @@ export const MyBet = () => {
                                                     {indexOfFirstBet + index + 1}
 
                                                 </th>
-                                                <td className="py-4 px-6 text-white">
+                                                <td className="py-4 px-6 text-black">
                                                     {formatDate(bet.betTime)}
 
                                                 </td>
-                                                <td className="text-right py-4 px-6 text-white">
+                                                <td className="text-right py-4 px-6 text-black">
                                                     {bet.gameType}
 
                                                 </td>
@@ -163,14 +163,14 @@ export const MyBet = () => {
                                                     {bet.betAmount}
 
                                                 </td>
-                                                <td className="text-right py-4 px-6 text-white">
+                                                <td className="text-right py-4 px-6 text-black">
                                                     {bet.winAmount}
 
                                                 </td>
                                             </tr>
                                         ))
                                         } </>) : (
-                                    <tr className="text-white border-b border-[var(--logoutBg)]">
+                                    <tr className="text-black border-b border-[var(--logoutBg)]">
                                         <td
                                             colSpan={8}
                                             scope="row"

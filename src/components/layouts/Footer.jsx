@@ -41,7 +41,7 @@ import logo10 from "../../assets/img/Logo/bprint.png";
 import logo11 from "../../assets/img/Logo/Hacksaw Logo/Hacksaw_Logo_Black.png";
 import logo12 from "../../assets/img/Logo/peter.png";
 import logo13 from "../../assets/img/Logo/sa.png";
-import logo14 from "../../assets/img/Logo/luckyy.jpg";
+import logo14 from "../../assets/img/Logo/bharat11.png";
 import logo15 from "../../assets/img/Logo/peter.png";
 import logo16 from "../../assets/img/Logo/logo1.png";
 import logo17 from "../../assets/img/Logo/logo8.png";
@@ -148,23 +148,23 @@ export const Footer = () => {
                                 
                                    
                                     <h1 className="text-black flex items-center justify-center text-[30px] mb-5">
-                                    <img width={"40px"}  src={logo14}></img><a 
+                                    <img width={"70px"}  src={logo14}></img><a 
                                             href="/" style={{"fontWeight":"bolder","margin-left":"10px"}}
 
                                         >
                                             
-                                           Lucky8online.com
+                                           
                                         </a>
                                     </h1>
 
                                    
                             
                                 
-                                <p className="text-white font-bold flex items-center justify-center text-[13px] md:text-[16px] mb-5">{t("We're not just another name in the online gaming world; we represent the future of entertainment. We bring you a fantastic mix of casino games, sports betting, and a variety of other interactive experiences—all powered by the revolutionary Web3 technology. With LuckyGao, we invite you on a gaming adventure that's both exciting and thrilling, offering an absolute blend of fun and the joy of winning!")}</p>
+                                <p className="text-white font-bold flex items-center justify-center text-[13px] md:text-[16px] mb-5">{t("We're not just another name in the online gaming world; we represent the future of entertainment. We bring you a fantastic mix of casino games, sports betting, and a variety of other interactive experiences—all powered by the revolutionary Web3 technology. With LuckyBharat11, we invite you on a gaming adventure that's both exciting and thrilling, offering an absolute blend of fun and the joy of winning!")}</p>
                             </div>
                             <div className="right-area mt-5">
                                 
-                                <p className="text-white font-bold flex items-center justify-center text-[13px] md:text-[16px] mb-3">{t("Join Lucky8")}</p>
+                                <p className="text-white font-bold flex items-center justify-center text-[13px] md:text-[16px] mb-3">{t("Join LuckBharat11")}</p>
                             </div >
                             {!isLogin &&
                             <p className="flex items-center justify-center">
@@ -221,7 +221,7 @@ export const Footer = () => {
                    
 
                     <div className="copyright-area mt-10 mb-10 md:mb-0 flex items-center justify-center text-[10px]">
-                        <p>© 2025 Lucky8. {t("All rights reserved")} | Privacy Policy | Terms & Conditions | <span style={{"fontWeight":"bolder"}}>Email: lucky8@gmail.com</span></p>
+                        <p>© 2025 LuckyBharat11. {t("All rights reserved")} | Privacy Policy | Terms & Conditions | <span style={{"fontWeight":"bolder"}}>Email: luckybharat11@gmail.com</span></p>
                        
                     </div>
                 </div>

@@ -12,7 +12,7 @@ function App() {
     const expandMenuState = useSelector((state) => state.openMenuState.value);
 
     return (
-        <div className="App dark">
+        <div className="">
             <Header />
             <div className="flex">
                 <Aside />

@@ -16,7 +16,7 @@ import logo from "../../assets/img/teslla_logo2.png";
 
 import Update from "../../assets/update.svg";
 
-import LuckyGaoLogo from "../../assets/img/Logo/luckyy.jpg";
+import LuckyGaoLogo from "../../assets/img/Logo/bharat11.png";
 import LuckyGaoLogoSmall from "../../assets/img/luckygao_logo_small.png";
 
 import Login from "../signs/Login";
@@ -189,7 +189,7 @@ export const Header = () => {
                             isMobileDevice() ? LuckyGaoLogo : LuckyGaoLogo
                         } 
                         alt="Teslla"
-                        className={`w-[65px] h-[auto] ml-2 ${expandMenuState ? "hidden" : "ml:flex"
+                        className={`w-[75px] h-[auto] ml-2 ${expandMenuState ? "hidden" : "ml:flex"
                             } logo-mobile`}
                     />
                     {/* <a href='/' className={`text-[32px] font-semibold text-[#FF0000] ml-2  hidden xl:flex ${expandMenuState ? "!hidden" : ""}`}>LuckyGao</a> */}

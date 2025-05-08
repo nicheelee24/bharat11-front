@@ -97,7 +97,7 @@ export const FinancialReport = () => {
             </div>
             {loading ? (
                 <div
-                    className={`inline-block h-6 w-6 animate-spin text-white rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]} ml-1/2 mt-1/2 z-20`}
+                    className={`inline-block h-6 w-6 animate-spin text-black rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]} ml-1/2 mt-1/2 z-20`}
                     role="status"
                 ></div>
             ) : (
@@ -108,25 +108,25 @@ export const FinancialReport = () => {
                                 <tr>
                                     <th
                                         scope="col"
-                                        className="py-3 px-6 border-b-2 border-white bg-gray-1200 text-left text-xs font-bold uppercase tracking-wider text-white"
+                                        className="py-3 px-6 border-b-2 border-white bg-gray-1200 text-left text-xs font-bold uppercase tracking-wider text-black"
                                     >
                                         Date
                                     </th>
                                     <th
                                         scope="col"
-                                        className="py-3 px-6 border-b-2 border-white bg-gray-1200 text-left text-xs font-bold uppercase tracking-wider text-white"
+                                        className="py-3 px-6 border-b-2 border-white bg-gray-1200 text-left text-xs font-bold uppercase tracking-wider text-black"
                                     >
                                         Category
                                     </th>
                                     <th
                                         scope="col"
-                                        className="py-3 px-6 border-b-2 border-white bg-gray-1200 text-left text-xs font-bold uppercase tracking-wider text-white"
+                                        className="py-3 px-6 border-b-2 border-white bg-gray-1200 text-left text-xs font-bold uppercase tracking-wider text-black"
                                         >
                                         All / Computers
                                     </th>
                                     <th
                                         scope="col"
-                                        className="py-3 px-6 border-b-2 border-white bg-gray-1200 text-left text-xs font-bold uppercase tracking-wider text-white"
+                                        className="py-3 px-6 border-b-2 border-white bg-gray-1200 text-left text-xs font-bold uppercase tracking-wider text-black"
                                         >
                                         Total Amount
                                     </th>
@@ -138,7 +138,7 @@ export const FinancialReport = () => {
                                         {currentItems.map(
                                             (tableData, index) => {
                                                 return (
-                                                    <tr className="text-white border-b border-[#bbb]">
+                                                    <tr className="text-black border-b border-[#bbb]">
                                                         <th
                                                             scope="row"
                                                             className="py-4 px-6 font-medium whitespace-nowrap"
@@ -156,13 +156,13 @@ export const FinancialReport = () => {
                                                                 .length ===
                                                             2 ? (
                                                                 <>
-                                                                    <div className="text-white">
+                                                                    <div className="text-black">
                                                                         {
                                                                             tableData
                                                                                 .ALLCOMPUTERS[0]
                                                                         }
                                                                     </div>
-                                                                    <div className="text-white">
+                                                                    <div className="text-black">
                                                                         {
                                                                             tableData
                                                                                 .ALLCOMPUTERS[1]
@@ -170,7 +170,7 @@ export const FinancialReport = () => {
                                                                     </div>
                                                                 </>
                                                             ) : (
-                                                                <div className="text-white">
+                                                                <div className="text-black">
                                                                     {
                                                                         tableData
                                                                             .ALLCOMPUTERS[0]
@@ -187,7 +187,7 @@ export const FinancialReport = () => {
                                                 );
                                             }
                                         )}
-                                        <tr className="text-white border-b">
+                                        <tr className="text-black border-b">
                                             <td
                                                 colSpan={3}
                                                 scope="row"
@@ -202,7 +202,7 @@ export const FinancialReport = () => {
                                     <tr>
                                         <td
                                             colSpan={5}
-                                            className="text-center py-5 text-white"
+                                            className="text-center py-5 text-black"
                                         >
                                             No Data
                                         </td>
@@ -214,7 +214,7 @@ export const FinancialReport = () => {
 
                     <div className="pagination flex justify-end mt-4 items-center">
                         <button
-                            className="px-3 py-1 text-[12px] md:text-[16px] border rounded mx-1 bg-[var(--logoutBg)] text-white"
+                            className="px-3 py-1 text-[12px] md:text-[16px] border rounded mx-1 bg-[var(--logoutBg)] text-black"
                             disabled={currentPage === 1}
                             onClick={() => setCurrentPage(currentPage - 1)}
                         >
@@ -259,7 +259,7 @@ export const FinancialReport = () => {
                             }
                         })}
                         <button
-                            className="px-3 py-1 text-[12px] md:text-[16px] border rounded mx-1 bg-[var(--logoutBg)] text-white"
+                            className="px-3 py-1 text-[12px] md:text-[16px] border rounded mx-1 bg-[var(--logoutBg)] text-black"
                             disabled={currentPage === pageNumbers.length}
                             onClick={() => setCurrentPage(currentPage + 1)}
                         >

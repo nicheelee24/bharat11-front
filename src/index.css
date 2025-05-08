@@ -3,13 +3,15 @@
 @tailwind utilities;
 
 :root {
-    --bgColorWhite: rgba(0, 0, 0, 1);
+    --bgColorWhite: rgb(255,255,255);
     --primaryColor: #24262b;
-    --secondaryColor: rgba(239, 176, 52, 1);
+    --secondaryColor: rgba(0,0,0, 1);
+
     --thirdColor: rgba(44, 44, 44, 0.9);
     --fourthColor: rgb(54, 54, 54);
     --fifthColor: #cd2732;
     --sixthColor: rgba(0, 0, 0, 1);
+    --seventhColor:#081F47;
 
     --paragraphColor: rgb(65, 63, 63);
     --innersecondaryColor: rgb(88, 88, 88);
@@ -17,10 +19,10 @@
     --borderColor: #a7a7a7;
     --headingColor: #aeaeae;
 
-    --textPrimaryColor: rgb(209, 209, 209);
+    --textPrimaryColor: rgb(0,0,0);
     --textCardColor: white;
     --textSecondaryColor: rgb(172, 172, 172);
-    --logoutBg: rgba(239, 176, 52, 1);
+    --logoutBg: rgba(210,210,210);
 
     --textColumnColor: rgb(204, 203, 203);
     --bgColors: #7f7f7f30;
@@ -336,7 +338,7 @@ header {
 }
 
 header .input-wrapper {
-    background-color: #0a0e2c;
+    background-color: #eee;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 4px;
@@ -455,7 +457,7 @@ header .Avatar .arrow-icon {
 
 /* footer */
 footer {
-    background-color: var(--bgColorWhite);
+    background-color: white;
 }
 
 footer .footer-width {
@@ -733,5 +735,5 @@ footer .icons-wrapper a {
 }
 
 .footers {
-    background: linear-gradient(180deg, #F0B309 0%, #8A6705 100%);
+    background: linear-gradient(180deg, #fff 0%, #ecc 60%);
 }

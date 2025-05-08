@@ -141,7 +141,7 @@ export const Account = () => {
                     {/* <input type="date" className="border p-1 rounded mr-2" defaultValue={fromDate}/>
                       <span>to</span>
                       <input type="date" className="border p-1 rounded mx-2" defaultValue={toDate}/> */}
-                    {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    {/* <button className="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">
                         Go
                       </button> */}
                 </div>
@@ -150,53 +150,53 @@ export const Account = () => {
             <div className="overflow-x-auto relative sm:rounded-lg mt-4">
                 <div className="flex flex-col md:flex-row w-full text-sm text-left gap-6">
                     <div className="w-full md:w-1/2">
-                        <h3 className="text-lg text-white border-[var(--logoutBg)] border-b-[4px] mb-4 font-bold">
+                        <h3 className="text-lg text-black border-[var(--logoutBg)] border-b-[4px] mb-4 font-bold">
                             Account Details
                         </h3>
 
                         <div className="flex gap-8">
                             <div className="w-1/2">
                                 <div className="sub-info-group mt-4 border-b border-[var(--logoutBg)]">
-                                    <span className="text-white">
+                                    <span className="text-black">
                                         Login id
                                     </span>
-                                    <p className="p-2 text-white">
+                                    <p className="p-2 text-black">
                                         {loginid}
                                     </p>
                                 </div>
 
                                 <div className="sub-info-group mt-4 border-b border-[var(--logoutBg)]">
-                                    <span className="text-white">
+                                    <span className="text-black">
                                         telephone
                                     </span>
-                                    <p className="p-2 text-white">
+                                    <p className="p-2 text-black">
                                         {telephone}
                                     </p>
                                 </div>
 
                                 <div className="sub-info-group mt-4 border-b border-[var(--logoutBg)]">
-                                    <span className="text-white">
+                                    <span className="text-black">
                                         BBAN
                                     </span>
-                                    <p className="p-2 text-white">
+                                    <p className="p-2 text-black">
                                         {bban}
                                     </p>
                                 </div>
 
                                 <div className="sub-info-group mt-4 border-b border-[var(--logoutBg)]">
-                                    <span className="text-white">
+                                    <span className="text-black">
                                         BBN
                                     </span>
-                                    <p className="p-2 text-white">
+                                    <p className="p-2 text-black">
                                         {bbn}
                                     </p>
                                 </div>
 
                                 <div className="sub-info-group mt-4 border-b border-[var(--logoutBg)]">
-                                    <span className="text-white">
+                                    <span className="text-black">
                                         BBUN
                                     </span>
-                                    <p className="p-2 text-white">
+                                    <p className="p-2 text-black">
                                         {bbun}
                                     </p>
                                 </div>
@@ -204,37 +204,37 @@ export const Account = () => {
 
                             <div className="w-1/2">
                                 <div className="sub-info-group mt-4 border-b border-[var(--logoutBg)]">
-                                    <span className="text-white">
+                                    <span className="text-black">
                                         credit limit
                                     </span>
-                                    <p className="p-2 text-white">
+                                    <p className="p-2 text-black">
                                         {creditLimit}
                                     </p>
                                 </div>
 
                                 <div className="sub-info-group mt-4 border-b border-[var(--logoutBg)]">
-                                    <span className="text-white">
+                                    <span className="text-black">
                                         remaining balance
                                     </span>
-                                    <p className="p-2 text-white">
+                                    <p className="p-2 text-black">
                                         {balance.toFixed(2)}
                                     </p>
                                 </div>
 
                                 <div className="sub-info-group mt-4 border-b border-[var(--logoutBg)]">
-                                    <span className="text-white">
+                                    <span className="text-black">
                                         win lose
                                     </span>
-                                    <p className="p-2 text-white">
+                                    <p className="p-2 text-black">
                                         {winlose}
                                     </p>
                                 </div>
 
                                 <div className="sub-info-group mt-4 border-b border-[var(--logoutBg)]">
-                                    <span className="text-white">
+                                    <span className="text-black">
                                         not finished yet
                                     </span>
-                                    <p className="p-2 text-white">
+                                    <p className="p-2 text-black">
                                         {notFinishedYet}
                                     </p>
                                 </div>
@@ -248,14 +248,14 @@ export const Account = () => {
                     </div>
 
                     <div className="w-full md:w-1/2">
-                        <h3  className="text-lg text-white  border-[var(--logoutBg)] border-b-[4px] mb-4 font-bold">
+                        <h3  className="text-lg text-black  border-[var(--logoutBg)] border-b-[4px] mb-4 font-bold">
                             Password
                         </h3>
 
                         <div className="md:flex md:items-center mb-6">
                             <div className="md:w-1/3">
                                 <label
-                                    className="block text-white font-bold md:text-right mb-1 md:mb-0 pr-4"
+                                    className="block text-black font-bold md:text-right mb-1 md:mb-0 pr-4"
                                     for="inline-full-name"
                                 >
                                     Current password
@@ -263,7 +263,7 @@ export const Account = () => {
                             </div>
                             <div className="md:w-2/3">
                                 <input
-                                    className="bg-[var(--logoutBg)] appearance-none border-2 border-[var(--logoutBg)] rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-[var(--logoutBg)] focus:border-black"
+                                    className="bg-[var(--logoutBg)] appearance-none border-2 border-[var(--logoutBg)] rounded w-full py-2 px-4 text-black leading-tight focus:outline-none focus:bg-[var(--logoutBg)] focus:border-black"
                                     type="password"
                                     value={currentPassword}
                                     onChange={(e) =>
@@ -276,7 +276,7 @@ export const Account = () => {
                         <div className="md:flex md:items-center mb-6">
                             <div className="md:w-1/3">
                                 <label
-                                    className="block text-white font-bold md:text-right mb-1 md:mb-0 pr-4"
+                                    className="block text-black font-bold md:text-right mb-1 md:mb-0 pr-4"
                                     for="inline-full-name"
                                 >
                                     New Password
@@ -297,7 +297,7 @@ export const Account = () => {
                         <div className="md:flex md:items-center mb-6">
                             <div className="md:w-1/3">
                                 <label
-                                    className="block text-white font-bold md:text-right mb-1 md:mb-0 pr-4"
+                                    className="block text-black font-bold md:text-right mb-1 md:mb-0 pr-4"
                                     for="inline-full-name"
                                 >
                                     Confirm Password
@@ -305,7 +305,7 @@ export const Account = () => {
                             </div>
                             <div className="md:w-2/3">
                                 <input
-                                    className="bg-[var(--logoutBg)] appearance-none border-2 border-[var(--logoutBg)] rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-[var(--logoutBg)] focus:border-black"
+                                    className="bg-[var(--logoutBg)] appearance-none border-2 border-[var(--logoutBg)] rounded w-full py-2 px-4 text-black leading-tight focus:outline-none focus:bg-[var(--logoutBg)] focus:border-black"
                                     type="password"
                                     value={confirmPassword}
                                     onChange={(e) =>
@@ -315,13 +315,13 @@ export const Account = () => {
                             </div>
                         </div>
                         {error && (
-                            <p className="text-white text-xs italic">
+                            <p className="text-black text-xs italic">
                                 {error}
                             </p>
                         )}
 
                         <button
-                            className=" text-black font-bold py-2 px-4 rounded float-right bg-[var(--secondaryColor)]"
+                            className=" text-white font-bold py-2 px-4 rounded float-right bg-[var(--seventhColor)]"
                             onClick={handleSubmit}
                         >
                             Change Password

@@ -315,7 +315,7 @@ export const GameList = () => {
                         setItemCount(itemCount + 21);
                         fetchData();
                     }}
-                    className="m-auto mt-4 bg-[var(--secondaryColor)] hover:bg-[var(--secondaryColor)]text-sm text-black font-[900] py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-black-300 focus:ring-offset-2"
+                    className="m-auto mt-4 bg-[var(--seventhColor)] hover:bg-[var(--secondaryColor)]text-sm text-black font-[900] py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-black-300 focus:ring-offset-2"
                 >
                     Load More...
                 </button>

@@ -10,7 +10,7 @@ import login from "../../assets/img/aside/login.png";
 import signup from "../../assets/img/aside/signup.png";
 // import logo from '../../assets/img/logo.svg'
 import logo from "../../assets/img/Logo/logos.png";
-import LuckyGaoLogo from "../../assets/img/Logo/luckyy.jpg";
+import LuckyGaoLogo from "../../assets/img/Logo/bharat11.png";
 
 import Login from "../signs/Login";
 import ResetPassword from "../signs/ResetPassword";
@@ -300,7 +300,7 @@ export const Aside = () => {
                                     <img
                                         src={LuckyGaoLogo}
                                         alt="logo"
-                                        className="w-[60%]" style={{ "marginLeft": "25%" }}
+                                        className="w-[110%]" style={{ "marginLeft": "65%" }}
                                     />
                                     {/* <a href='/' className='text-[32px] font-semibold text-[#FF0000]'>LuckyGao</a> */}
                                 </a>
