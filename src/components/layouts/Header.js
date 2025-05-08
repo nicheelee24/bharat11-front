@@ -286,7 +286,7 @@ export const Header = () => {
                                         </div>
                                     )}
                                 </div>
-                                <div>
+                                {/* <div>
                                         <ReactFlagsSelect
                                             selected={country}
                                             onSelect={onCountrySelect}
@@ -295,18 +295,9 @@ export const Header = () => {
                                             showOptionLabel={false}
                                             
                                            
-                                        /*showSelectedLabel={showSelectedLabel}
-                                        selectedSize={selectedSize}
-                                        showOptionLabel={showOptionLabel}
-                                        optionsSize={optionsSize}
-                                        placeholder={placeholder}
-                                        searchable={searchable}
-                                        searchPlaceholder={searchPlaceholder}
-                                        alignOptionsToRight={alignOptionsToRight}
-                                        fullWidth={fullWidth}
-                                        disabled={disabled} */
+                                        
                                         />
-                                    </div>
+                                    </div> */}
 
                                  
 
@@ -436,7 +427,7 @@ export const Header = () => {
                                             </div>
                                         )}
                                     </div>
-                                    <div className="relative inline-block" style={{"font-size": "26px","margin-left": "-24px;"}}>
+                                    {/* <div className="relative inline-block" style={{"font-size": "26px","margin-left": "-24px;"}}>
                                         <ReactFlagsSelect
                                             selected={country}
                                             onSelect={onCountrySelect}
@@ -445,18 +436,9 @@ export const Header = () => {
                                             showOptionLabel={false}
                                             optionsSize={"20px"}
                                             fullWidth={"24px"}
-                                        /*showSelectedLabel={showSelectedLabel}
-                                        selectedSize={selectedSize}
-                                        showOptionLabel={showOptionLabel}
-                                        optionsSize={optionsSize}
-                                        placeholder={placeholder}
-                                        searchable={searchable}
-                                        searchPlaceholder={searchPlaceholder}
-                                        alignOptionsToRight={alignOptionsToRight}
-                                        fullWidth={fullWidth}
-                                        disabled={disabled} */
+                                      
                                         />
-                                    </div>
+                                    </div> */}
 
                                     <div class="icon-bar">
 
