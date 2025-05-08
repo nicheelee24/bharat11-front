@@ -351,12 +351,12 @@ export const Header = () => {
                                     </p> */}
 
                                     <div className="flex flex-col gap-1 md:gap-4 md:flex-row">
-                                        <span className="text-white welcome-text text-xs md:text-sm lg:text-lg w-auto md:px-2 ml-[6px] md:ml-0" >
+                                        <span className="text-black welcome-text text-xs md:text-sm lg:text-lg w-auto md:px-2 ml-[6px] md:ml-0" >
                                             {"Welcome, " + username + "! "}
                                         </span>
 
                                         <div className="flex gap-2 items-center">
-                                            <span className="text-white welcome-text text-xs md:text-sm lg:text-lg" style={{ marginLeft: "4px" }}>{"Bal: "}
+                                            <span className="text-black welcome-text text-xs md:text-sm lg:text-lg" style={{ marginLeft: "4px" }}>{"Bal: "}
                                                 {loadingBalance
                                                     ? "..."
                                                     : balance +
